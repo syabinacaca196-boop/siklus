@@ -184,7 +184,7 @@
         return '<span class="' + (i <= r.level ? "is-on" : "") + '"></span>';
       }).join("");
       return (
-        '<article class="resin-card">' +
+        '<article class="resin-card resin-card--level-' + r.level + '">' +
           '<div class="resin-top"><span class="resin-num">' + r.num + '</span>' +
           '<span class="resin-code">' + r.code + "</span></div>" +
           "<h3>" + r.name + "</h3>" +
